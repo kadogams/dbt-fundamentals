@@ -1,2 +1,2 @@
-C:/Users/skadogami/Miniconda3/Scripts/activate
-conda activate dbt
+call C:/Users/skadogami/Miniconda3/Scripts/activate
+call conda activate dbt
