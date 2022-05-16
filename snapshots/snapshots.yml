@@ -1,0 +1,7 @@
+version: 2
+
+# snapshots:
+#   - name: bitcoin_transactions_snapshot
+#     columns:
+#       - name: hash
+#         quote: true
