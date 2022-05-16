@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: bitcoin
+    description: An extract of bitcoin transactions from bigquery-public-data.
+    # database: silicon-light-344109
+    # schema: bitcoin
+    project: silicon-light-344109
+    dataset: bitcoin
+    tables:
+      - name: transactions_2022-05_sample
+        description: Raw transactions data sample of may 2022.
+        columns:
+          - name: hash
+            description: Primary key for transactions.
+            # tests:
+            #   - unique
+            #   - not_null
+            # quote: true

@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_bitcoin_transactions
+    description: Staged bitcoin transactions data sample from bigquery-public-data.
+    columns: 
+      - name: hash
+        description: The primary key for transactions.
+        # tests:
+        #   - unique
+        #   - not_null
+        # quote: true
